@@ -1,0 +1,28 @@
+---
+title: "session.closed"
+---
+
+BoundaryKit delivers `session.closed` to the configured receiver with an HTTP POST.
+
+## Request body
+
+The JSON body follows the `session.closed` schema.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "session.closed"
+    },
+    "record": {
+      "$ref": "#/components/schemas/Record"
+    }
+  }
+}
+```
+
+## Acknowledgment
+
+Return HTTP 204 after accepting the delivery.

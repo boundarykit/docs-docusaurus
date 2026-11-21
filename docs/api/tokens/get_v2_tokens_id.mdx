@@ -1,0 +1,20 @@
+---
+title: "Get token"
+---
+
+import EndpointCard from "@site/src/components/EndpointCard"
+
+<EndpointCard method="GET" path={"/v2/tokens/{id}"} />
+
+## Parameters
+
+| Name | Location | Required |
+| --- | --- | --- |
+| `X-Organization-Id` | header | Yes |
+| `id` | path | Yes |
+
+## Responses
+
+- **200** Request completed.
+- **403** Scope denied
+- **503** Service unavailable

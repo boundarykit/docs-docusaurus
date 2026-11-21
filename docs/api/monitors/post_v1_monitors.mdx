@@ -1,0 +1,24 @@
+---
+title: "Create monitor"
+---
+
+import EndpointCard from "@site/src/components/EndpointCard"
+
+<EndpointCard method="POST" path={"/v1/monitors"} />
+
+## Parameters
+
+| Name | Location | Required |
+| --- | --- | --- |
+| `X-Organization-Id` | header | Yes |
+
+## Request body
+
+Send `application/json` with the `Record` schema.
+
+## Responses
+
+- **200** Request completed.
+- **202** Queued for processing.
+- **403** Scope denied
+- **503** Service unavailable

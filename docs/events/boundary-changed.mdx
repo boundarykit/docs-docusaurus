@@ -1,0 +1,28 @@
+---
+title: "boundary.changed"
+---
+
+BoundaryKit delivers `boundary.changed` to the configured receiver with an HTTP POST.
+
+## Request body
+
+The JSON body follows the `boundary.changed` schema.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "boundary.changed"
+    },
+    "record": {
+      "$ref": "#/components/schemas/Record"
+    }
+  }
+}
+```
+
+## Acknowledgment
+
+Return HTTP 204 after accepting the delivery.

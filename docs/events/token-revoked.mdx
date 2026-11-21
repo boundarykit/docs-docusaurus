@@ -1,0 +1,28 @@
+---
+title: "token.revoked"
+---
+
+BoundaryKit delivers `token.revoked` to the configured receiver with an HTTP POST.
+
+## Request body
+
+The JSON body follows the `token.revoked` schema.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "token.revoked"
+    },
+    "record": {
+      "$ref": "#/components/schemas/Record"
+    }
+  }
+}
+```
+
+## Acknowledgment
+
+Return HTTP 204 after accepting the delivery.

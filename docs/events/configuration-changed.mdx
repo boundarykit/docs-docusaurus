@@ -1,0 +1,37 @@
+---
+title: "configuration.changed"
+---
+
+BoundaryKit delivers `configuration.changed` to the configured receiver with an HTTP POST.
+
+## Request body
+
+The JSON body follows the `Decision` schema.
+
+```json
+{
+  "oneOf": [
+    {
+      "$ref": "#/components/schemas/policy.updated"
+    },
+    {
+      "$ref": "#/components/schemas/boundary.changed"
+    },
+    {
+      "$ref": "#/components/schemas/session.closed"
+    }
+  ],
+  "discriminator": {
+    "propertyName": "type",
+    "mapping": {
+      "policy.updated": "#/components/schemas/policy.updated",
+      "boundary.changed": "#/components/schemas/boundary.changed",
+      "session.closed": "#/components/schemas/session.closed"
+    }
+  }
+}
+```
+
+## Acknowledgment
+
+Return HTTP 204 after accepting the delivery.

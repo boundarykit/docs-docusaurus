@@ -1,0 +1,822 @@
+[
+  {
+    "from": "/handbook/index",
+    "to": "/"
+  },
+  {
+    "from": "/handbook/quickstart",
+    "to": "/quickstart"
+  },
+  {
+    "from": "/handbook/architecture",
+    "to": "/architecture"
+  },
+  {
+    "from": "/handbook/glossary",
+    "to": "/glossary"
+  },
+  {
+    "from": "/handbook/changelog",
+    "to": "/changelog"
+  },
+  {
+    "from": "/handbook/documentation/core-concepts",
+    "to": "/documentation/core-concepts"
+  },
+  {
+    "from": "/handbook/documentation/authenticate-requests",
+    "to": "/documentation/authenticate-requests"
+  },
+  {
+    "from": "/handbook/documentation/design-boundaries",
+    "to": "/documentation/design-boundaries"
+  },
+  {
+    "from": "/handbook/documentation/compose-policies",
+    "to": "/documentation/compose-policies"
+  },
+  {
+    "from": "/handbook/documentation/isolate-sandboxes",
+    "to": "/documentation/isolate-sandboxes"
+  },
+  {
+    "from": "/handbook/documentation/rate-limits",
+    "to": "/documentation/rate-limits"
+  },
+  {
+    "from": "/handbook/documentation/migrate-from-v1-to-v2",
+    "to": "/documentation/migrate-from-v1-to-v2"
+  },
+  {
+    "from": "/handbook/documentation/security-model",
+    "to": "/documentation/security-model"
+  },
+  {
+    "from": "/handbook/documentation/session-lifecycle",
+    "to": "/documentation/session-lifecycle"
+  },
+  {
+    "from": "/handbook/documentation/token-scopes",
+    "to": "/documentation/token-scopes"
+  },
+  {
+    "from": "/handbook/test/policy-fixtures",
+    "to": "/test/policy-fixtures"
+  },
+  {
+    "from": "/handbook/test/golden-decisions",
+    "to": "/test/golden-decisions"
+  },
+  {
+    "from": "/handbook/test/replay-sessions",
+    "to": "/test/replay-sessions"
+  },
+  {
+    "from": "/handbook/test/negative-cases",
+    "to": "/test/negative-cases"
+  },
+  {
+    "from": "/handbook/test/nested-rule-tests",
+    "to": "/test/nested-rule-tests"
+  },
+  {
+    "from": "/handbook/test/sandbox-isolation-tests",
+    "to": "/test/sandbox-isolation-tests"
+  },
+  {
+    "from": "/handbook/test/token-expiry-tests",
+    "to": "/test/token-expiry-tests"
+  },
+  {
+    "from": "/handbook/test/tenant-separation-tests",
+    "to": "/test/tenant-separation-tests"
+  },
+  {
+    "from": "/handbook/test/baseline-comparisons",
+    "to": "/test/baseline-comparisons"
+  },
+  {
+    "from": "/handbook/test/latency-budgets",
+    "to": "/test/latency-budgets"
+  },
+  {
+    "from": "/handbook/test/evaluation-reports",
+    "to": "/test/evaluation-reports"
+  },
+  {
+    "from": "/handbook/test/release-acceptance",
+    "to": "/test/release-acceptance"
+  },
+  {
+    "from": "/handbook/cookbook/limit-tool-access",
+    "to": "/cookbook/limit-tool-access"
+  },
+  {
+    "from": "/handbook/cookbook/scope-a-support-bot",
+    "to": "/cookbook/scope-a-support-bot"
+  },
+  {
+    "from": "/handbook/cookbook/isolate-a-preview-agent",
+    "to": "/cookbook/isolate-a-preview-agent"
+  },
+  {
+    "from": "/handbook/cookbook/rotate-an-api-key",
+    "to": "/cookbook/rotate-an-api-key"
+  },
+  {
+    "from": "/handbook/cookbook/export-audit-evidence",
+    "to": "/cookbook/export-audit-evidence"
+  },
+  {
+    "from": "/handbook/cookbook/replay-a-denied-call",
+    "to": "/cookbook/replay-a-denied-call"
+  },
+  {
+    "from": "/handbook/cookbook/detect-a-noisy-agent",
+    "to": "/cookbook/detect-a-noisy-agent"
+  },
+  {
+    "from": "/handbook/cookbook/review-policy-drift",
+    "to": "/cookbook/review-policy-drift"
+  },
+  {
+    "from": "/handbook/cookbook/expire-a-session",
+    "to": "/cookbook/expire-a-session"
+  },
+  {
+    "from": "/handbook/cookbook/route-an-alert",
+    "to": "/cookbook/route-an-alert"
+  },
+  {
+    "from": "/handbook/cookbook/test-nested-rules",
+    "to": "/cookbook/test-nested-rules"
+  },
+  {
+    "from": "/handbook/cookbook/trace-a-webhook",
+    "to": "/cookbook/trace-a-webhook"
+  },
+  {
+    "from": "/handbook/cookbook/inspect-usage-spikes",
+    "to": "/cookbook/inspect-usage-spikes"
+  },
+  {
+    "from": "/handbook/cookbook/stage-a-policy-rollout",
+    "to": "/cookbook/stage-a-policy-rollout"
+  },
+  {
+    "from": "/handbook/integrations/openai",
+    "to": "/integrations/openai"
+  },
+  {
+    "from": "/handbook/integrations/anthropic",
+    "to": "/integrations/anthropic"
+  },
+  {
+    "from": "/handbook/integrations/langchain",
+    "to": "/integrations/langchain"
+  },
+  {
+    "from": "/handbook/integrations/crewai",
+    "to": "/integrations/crewai"
+  },
+  {
+    "from": "/handbook/integrations/cloudflare-workers",
+    "to": "/integrations/cloudflare-workers"
+  },
+  {
+    "from": "/handbook/integrations/aws-lambda",
+    "to": "/integrations/aws-lambda"
+  },
+  {
+    "from": "/handbook/integrations/datadog",
+    "to": "/integrations/datadog"
+  },
+  {
+    "from": "/handbook/integrations/pagerduty",
+    "to": "/integrations/pagerduty"
+  },
+  {
+    "from": "/handbook/integrations/slack",
+    "to": "/integrations/slack"
+  },
+  {
+    "from": "/handbook/integrations/okta",
+    "to": "/integrations/okta"
+  },
+  {
+    "from": "/handbook/integrations/github-actions",
+    "to": "/integrations/github-actions"
+  },
+  {
+    "from": "/handbook/integrations/terraform",
+    "to": "/integrations/terraform"
+  },
+  {
+    "from": "/handbook/mcp/server-overview",
+    "to": "/mcp/server-overview"
+  },
+  {
+    "from": "/handbook/mcp/tool-catalog",
+    "to": "/mcp/tool-catalog"
+  },
+  {
+    "from": "/handbook/mcp/authentication",
+    "to": "/mcp/authentication"
+  },
+  {
+    "from": "/handbook/mcp/local-stdio",
+    "to": "/mcp/local-stdio"
+  },
+  {
+    "from": "/handbook/mcp/hosted-sse",
+    "to": "/mcp/hosted-sse"
+  },
+  {
+    "from": "/handbook/mcp/claude-setup",
+    "to": "/mcp/claude-setup"
+  },
+  {
+    "from": "/handbook/mcp/cursor-setup",
+    "to": "/mcp/cursor-setup"
+  },
+  {
+    "from": "/handbook/mcp/codex-setup",
+    "to": "/mcp/codex-setup"
+  },
+  {
+    "from": "/handbook/mcp/resource-discovery",
+    "to": "/mcp/resource-discovery"
+  },
+  {
+    "from": "/handbook/mcp/tool-permissions",
+    "to": "/mcp/tool-permissions"
+  },
+  {
+    "from": "/handbook/bac/yaml-schema",
+    "to": "/bac/yaml-schema"
+  },
+  {
+    "from": "/handbook/bac/cli-installation",
+    "to": "/bac/cli-installation"
+  },
+  {
+    "from": "/handbook/bac/initialize-a-workspace",
+    "to": "/bac/initialize-a-workspace"
+  },
+  {
+    "from": "/handbook/bac/validate-a-manifest",
+    "to": "/bac/validate-a-manifest"
+  },
+  {
+    "from": "/handbook/bac/plan-changes",
+    "to": "/bac/plan-changes"
+  },
+  {
+    "from": "/handbook/bac/apply-revisions",
+    "to": "/bac/apply-revisions"
+  },
+  {
+    "from": "/handbook/bac/detect-drift",
+    "to": "/bac/detect-drift"
+  },
+  {
+    "from": "/handbook/bac/gitops-workflows",
+    "to": "/bac/gitops-workflows"
+  },
+  {
+    "from": "/handbook/bac/promote-configuration",
+    "to": "/bac/promote-configuration"
+  },
+  {
+    "from": "/handbook/bac/recover-a-revision",
+    "to": "/bac/recover-a-revision"
+  },
+  {
+    "from": "/handbook/cicd/github-actions",
+    "to": "/cicd/github-actions"
+  },
+  {
+    "from": "/handbook/cicd/gitlab-ci",
+    "to": "/cicd/gitlab-ci"
+  },
+  {
+    "from": "/handbook/cicd/pr-policy-gates",
+    "to": "/cicd/pr-policy-gates"
+  },
+  {
+    "from": "/handbook/cicd/preview-environments",
+    "to": "/cicd/preview-environments"
+  },
+  {
+    "from": "/handbook/cicd/rollback",
+    "to": "/cicd/rollback"
+  },
+  {
+    "from": "/handbook/cicd/protected-branches",
+    "to": "/cicd/protected-branches"
+  },
+  {
+    "from": "/handbook/cicd/artifact-promotion",
+    "to": "/cicd/artifact-promotion"
+  },
+  {
+    "from": "/handbook/cicd/secret-injection",
+    "to": "/cicd/secret-injection"
+  },
+  {
+    "from": "/handbook/cicd/failure-diagnostics",
+    "to": "/cicd/failure-diagnostics"
+  },
+  {
+    "from": "/handbook/cicd/release-evidence",
+    "to": "/cicd/release-evidence"
+  },
+  {
+    "from": "/handbook/administration/workspace-provisioning",
+    "to": "/administration/workspace-provisioning"
+  },
+  {
+    "from": "/handbook/administration/rbac",
+    "to": "/administration/rbac"
+  },
+  {
+    "from": "/handbook/administration/sso-and-saml",
+    "to": "/administration/sso-and-saml"
+  },
+  {
+    "from": "/handbook/administration/audit-exports",
+    "to": "/administration/audit-exports"
+  },
+  {
+    "from": "/handbook/administration/workspace-isolation",
+    "to": "/administration/workspace-isolation"
+  },
+  {
+    "from": "/handbook/administration/retention",
+    "to": "/administration/retention"
+  },
+  {
+    "from": "/handbook/administration/billing",
+    "to": "/administration/billing"
+  },
+  {
+    "from": "/handbook/administration/service-accounts",
+    "to": "/administration/service-accounts"
+  },
+  {
+    "from": "/handbook/administration/membership-reviews",
+    "to": "/administration/membership-reviews"
+  },
+  {
+    "from": "/handbook/administration/organization-settings",
+    "to": "/administration/organization-settings"
+  },
+  {
+    "from": "/handbook/monitor/live-telemetry",
+    "to": "/monitor/live-telemetry"
+  },
+  {
+    "from": "/handbook/monitor/anomaly-alerts",
+    "to": "/monitor/anomaly-alerts"
+  },
+  {
+    "from": "/handbook/monitor/decision-slos",
+    "to": "/monitor/decision-slos"
+  },
+  {
+    "from": "/handbook/monitor/request-traces",
+    "to": "/monitor/request-traces"
+  },
+  {
+    "from": "/handbook/monitor/delivery-latency",
+    "to": "/monitor/delivery-latency"
+  },
+  {
+    "from": "/handbook/monitor/error-budgets",
+    "to": "/monitor/error-budgets"
+  },
+  {
+    "from": "/handbook/monitor/triage-dashboards",
+    "to": "/monitor/triage-dashboards"
+  },
+  {
+    "from": "/handbook/monitor/usage-reports",
+    "to": "/monitor/usage-reports"
+  },
+  {
+    "from": "/learn/index",
+    "to": "/"
+  },
+  {
+    "from": "/learn/quickstart",
+    "to": "/quickstart"
+  },
+  {
+    "from": "/learn/architecture",
+    "to": "/architecture"
+  },
+  {
+    "from": "/learn/glossary",
+    "to": "/glossary"
+  },
+  {
+    "from": "/learn/changelog",
+    "to": "/changelog"
+  },
+  {
+    "from": "/learn/documentation/core-concepts",
+    "to": "/documentation/core-concepts"
+  },
+  {
+    "from": "/learn/documentation/authenticate-requests",
+    "to": "/documentation/authenticate-requests"
+  },
+  {
+    "from": "/learn/documentation/design-boundaries",
+    "to": "/documentation/design-boundaries"
+  },
+  {
+    "from": "/learn/documentation/compose-policies",
+    "to": "/documentation/compose-policies"
+  },
+  {
+    "from": "/learn/documentation/isolate-sandboxes",
+    "to": "/documentation/isolate-sandboxes"
+  },
+  {
+    "from": "/learn/documentation/rate-limits",
+    "to": "/documentation/rate-limits"
+  },
+  {
+    "from": "/learn/documentation/migrate-from-v1-to-v2",
+    "to": "/documentation/migrate-from-v1-to-v2"
+  },
+  {
+    "from": "/learn/documentation/security-model",
+    "to": "/documentation/security-model"
+  },
+  {
+    "from": "/learn/documentation/session-lifecycle",
+    "to": "/documentation/session-lifecycle"
+  },
+  {
+    "from": "/learn/documentation/token-scopes",
+    "to": "/documentation/token-scopes"
+  },
+  {
+    "from": "/learn/test/policy-fixtures",
+    "to": "/test/policy-fixtures"
+  },
+  {
+    "from": "/learn/test/golden-decisions",
+    "to": "/test/golden-decisions"
+  },
+  {
+    "from": "/learn/test/replay-sessions",
+    "to": "/test/replay-sessions"
+  },
+  {
+    "from": "/learn/test/negative-cases",
+    "to": "/test/negative-cases"
+  },
+  {
+    "from": "/learn/test/nested-rule-tests",
+    "to": "/test/nested-rule-tests"
+  },
+  {
+    "from": "/learn/test/sandbox-isolation-tests",
+    "to": "/test/sandbox-isolation-tests"
+  },
+  {
+    "from": "/learn/test/token-expiry-tests",
+    "to": "/test/token-expiry-tests"
+  },
+  {
+    "from": "/learn/test/tenant-separation-tests",
+    "to": "/test/tenant-separation-tests"
+  },
+  {
+    "from": "/learn/test/baseline-comparisons",
+    "to": "/test/baseline-comparisons"
+  },
+  {
+    "from": "/learn/test/latency-budgets",
+    "to": "/test/latency-budgets"
+  },
+  {
+    "from": "/learn/test/evaluation-reports",
+    "to": "/test/evaluation-reports"
+  },
+  {
+    "from": "/learn/test/release-acceptance",
+    "to": "/test/release-acceptance"
+  },
+  {
+    "from": "/learn/cookbook/limit-tool-access",
+    "to": "/cookbook/limit-tool-access"
+  },
+  {
+    "from": "/learn/cookbook/scope-a-support-bot",
+    "to": "/cookbook/scope-a-support-bot"
+  },
+  {
+    "from": "/learn/cookbook/isolate-a-preview-agent",
+    "to": "/cookbook/isolate-a-preview-agent"
+  },
+  {
+    "from": "/learn/cookbook/rotate-an-api-key",
+    "to": "/cookbook/rotate-an-api-key"
+  },
+  {
+    "from": "/learn/cookbook/export-audit-evidence",
+    "to": "/cookbook/export-audit-evidence"
+  },
+  {
+    "from": "/learn/cookbook/replay-a-denied-call",
+    "to": "/cookbook/replay-a-denied-call"
+  },
+  {
+    "from": "/learn/cookbook/detect-a-noisy-agent",
+    "to": "/cookbook/detect-a-noisy-agent"
+  },
+  {
+    "from": "/learn/cookbook/review-policy-drift",
+    "to": "/cookbook/review-policy-drift"
+  },
+  {
+    "from": "/learn/cookbook/expire-a-session",
+    "to": "/cookbook/expire-a-session"
+  },
+  {
+    "from": "/learn/cookbook/route-an-alert",
+    "to": "/cookbook/route-an-alert"
+  },
+  {
+    "from": "/learn/cookbook/test-nested-rules",
+    "to": "/cookbook/test-nested-rules"
+  },
+  {
+    "from": "/learn/cookbook/trace-a-webhook",
+    "to": "/cookbook/trace-a-webhook"
+  },
+  {
+    "from": "/learn/cookbook/inspect-usage-spikes",
+    "to": "/cookbook/inspect-usage-spikes"
+  },
+  {
+    "from": "/learn/cookbook/stage-a-policy-rollout",
+    "to": "/cookbook/stage-a-policy-rollout"
+  },
+  {
+    "from": "/learn/integrations/openai",
+    "to": "/integrations/openai"
+  },
+  {
+    "from": "/learn/integrations/anthropic",
+    "to": "/integrations/anthropic"
+  },
+  {
+    "from": "/learn/integrations/langchain",
+    "to": "/integrations/langchain"
+  },
+  {
+    "from": "/learn/integrations/crewai",
+    "to": "/integrations/crewai"
+  },
+  {
+    "from": "/learn/integrations/cloudflare-workers",
+    "to": "/integrations/cloudflare-workers"
+  },
+  {
+    "from": "/learn/integrations/aws-lambda",
+    "to": "/integrations/aws-lambda"
+  },
+  {
+    "from": "/learn/integrations/datadog",
+    "to": "/integrations/datadog"
+  },
+  {
+    "from": "/learn/integrations/pagerduty",
+    "to": "/integrations/pagerduty"
+  },
+  {
+    "from": "/learn/integrations/slack",
+    "to": "/integrations/slack"
+  },
+  {
+    "from": "/learn/integrations/okta",
+    "to": "/integrations/okta"
+  },
+  {
+    "from": "/learn/integrations/github-actions",
+    "to": "/integrations/github-actions"
+  },
+  {
+    "from": "/learn/integrations/terraform",
+    "to": "/integrations/terraform"
+  },
+  {
+    "from": "/learn/mcp/server-overview",
+    "to": "/mcp/server-overview"
+  },
+  {
+    "from": "/learn/mcp/tool-catalog",
+    "to": "/mcp/tool-catalog"
+  },
+  {
+    "from": "/learn/mcp/authentication",
+    "to": "/mcp/authentication"
+  },
+  {
+    "from": "/learn/mcp/local-stdio",
+    "to": "/mcp/local-stdio"
+  },
+  {
+    "from": "/learn/mcp/hosted-sse",
+    "to": "/mcp/hosted-sse"
+  },
+  {
+    "from": "/learn/mcp/claude-setup",
+    "to": "/mcp/claude-setup"
+  },
+  {
+    "from": "/learn/mcp/cursor-setup",
+    "to": "/mcp/cursor-setup"
+  },
+  {
+    "from": "/learn/mcp/codex-setup",
+    "to": "/mcp/codex-setup"
+  },
+  {
+    "from": "/learn/mcp/resource-discovery",
+    "to": "/mcp/resource-discovery"
+  },
+  {
+    "from": "/learn/mcp/tool-permissions",
+    "to": "/mcp/tool-permissions"
+  },
+  {
+    "from": "/learn/bac/yaml-schema",
+    "to": "/bac/yaml-schema"
+  },
+  {
+    "from": "/learn/bac/cli-installation",
+    "to": "/bac/cli-installation"
+  },
+  {
+    "from": "/learn/bac/initialize-a-workspace",
+    "to": "/bac/initialize-a-workspace"
+  },
+  {
+    "from": "/learn/bac/validate-a-manifest",
+    "to": "/bac/validate-a-manifest"
+  },
+  {
+    "from": "/learn/bac/plan-changes",
+    "to": "/bac/plan-changes"
+  },
+  {
+    "from": "/learn/bac/apply-revisions",
+    "to": "/bac/apply-revisions"
+  },
+  {
+    "from": "/learn/bac/detect-drift",
+    "to": "/bac/detect-drift"
+  },
+  {
+    "from": "/learn/bac/gitops-workflows",
+    "to": "/bac/gitops-workflows"
+  },
+  {
+    "from": "/learn/bac/promote-configuration",
+    "to": "/bac/promote-configuration"
+  },
+  {
+    "from": "/learn/bac/recover-a-revision",
+    "to": "/bac/recover-a-revision"
+  },
+  {
+    "from": "/learn/cicd/github-actions",
+    "to": "/cicd/github-actions"
+  },
+  {
+    "from": "/learn/cicd/gitlab-ci",
+    "to": "/cicd/gitlab-ci"
+  },
+  {
+    "from": "/learn/cicd/pr-policy-gates",
+    "to": "/cicd/pr-policy-gates"
+  },
+  {
+    "from": "/learn/cicd/preview-environments",
+    "to": "/cicd/preview-environments"
+  },
+  {
+    "from": "/learn/cicd/rollback",
+    "to": "/cicd/rollback"
+  },
+  {
+    "from": "/learn/cicd/protected-branches",
+    "to": "/cicd/protected-branches"
+  },
+  {
+    "from": "/learn/cicd/artifact-promotion",
+    "to": "/cicd/artifact-promotion"
+  },
+  {
+    "from": "/learn/cicd/secret-injection",
+    "to": "/cicd/secret-injection"
+  },
+  {
+    "from": "/learn/cicd/failure-diagnostics",
+    "to": "/cicd/failure-diagnostics"
+  },
+  {
+    "from": "/learn/cicd/release-evidence",
+    "to": "/cicd/release-evidence"
+  },
+  {
+    "from": "/learn/administration/workspace-provisioning",
+    "to": "/administration/workspace-provisioning"
+  },
+  {
+    "from": "/learn/administration/rbac",
+    "to": "/administration/rbac"
+  },
+  {
+    "from": "/learn/administration/sso-and-saml",
+    "to": "/administration/sso-and-saml"
+  },
+  {
+    "from": "/learn/administration/audit-exports",
+    "to": "/administration/audit-exports"
+  },
+  {
+    "from": "/learn/administration/workspace-isolation",
+    "to": "/administration/workspace-isolation"
+  },
+  {
+    "from": "/learn/administration/retention",
+    "to": "/administration/retention"
+  },
+  {
+    "from": "/learn/administration/billing",
+    "to": "/administration/billing"
+  },
+  {
+    "from": "/learn/administration/service-accounts",
+    "to": "/administration/service-accounts"
+  },
+  {
+    "from": "/learn/administration/membership-reviews",
+    "to": "/administration/membership-reviews"
+  },
+  {
+    "from": "/learn/administration/organization-settings",
+    "to": "/administration/organization-settings"
+  },
+  {
+    "from": "/learn/monitor/live-telemetry",
+    "to": "/monitor/live-telemetry"
+  },
+  {
+    "from": "/learn/monitor/anomaly-alerts",
+    "to": "/monitor/anomaly-alerts"
+  },
+  {
+    "from": "/learn/monitor/decision-slos",
+    "to": "/monitor/decision-slos"
+  },
+  {
+    "from": "/learn/monitor/request-traces",
+    "to": "/monitor/request-traces"
+  },
+  {
+    "from": "/learn/monitor/delivery-latency",
+    "to": "/monitor/delivery-latency"
+  },
+  {
+    "from": "/learn/monitor/error-budgets",
+    "to": "/monitor/error-budgets"
+  },
+  {
+    "from": "/learn/monitor/triage-dashboards",
+    "to": "/monitor/triage-dashboards"
+  },
+  {
+    "from": "/learn/monitor/usage-reports",
+    "to": "/monitor/usage-reports"
+  },
+  {
+    "from": "/reference-guide/index",
+    "to": "/"
+  },
+  {
+    "from": "/reference-guide/quickstart",
+    "to": "/quickstart"
+  },
+  {
+    "from": "/reference-guide/architecture",
+    "to": "/architecture"
+  }
+]
