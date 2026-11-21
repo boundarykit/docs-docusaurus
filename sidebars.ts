@@ -70,7 +70,12 @@ export default {
     "monitor/delivery-latency",
     "monitor/error-budgets",
     "monitor/triage-dashboards",
-    "monitor/usage-reports"
+    "monitor/usage-reports",
+    "documentation/troubleshooting",
+    "administration/security-compliance",
+    "cookbook/BoundaryQL-Reference",
+    "documentation/policy-expression-reference",
+    "documentation/audit-event-catalog"
   ],
   "MCP": [
     "mcp/server-overview",
@@ -82,7 +87,8 @@ export default {
     "mcp/cursor-setup",
     "mcp/codex-setup",
     "mcp/resource-discovery",
-    "mcp/tool-permissions"
+    "mcp/tool-permissions",
+    "mcp"
   ],
   "BaC": [
     "bac/yaml-schema",
@@ -94,7 +100,8 @@ export default {
     "bac/detect-drift",
     "bac/gitops-workflows",
     "bac/promote-configuration",
-    "bac/recover-a-revision"
+    "bac/recover-a-revision",
+    "bac"
   ],
   "CI/CD": [
     "cicd/github-actions",
@@ -109,6 +116,7 @@ export default {
     "cicd/release-evidence"
   ],
   "API": [
+    "api-reference",
     {
       "type": "category",
       "label": "Status",
@@ -398,17 +406,11 @@ export default {
         "api/webhooks/post_v2_webhooks"
       ]
     },
-    {
-      "type": "category",
-      "label": "Webhook events",
-      "items": [
-        "events/alert-opened",
-        "events/boundary-changed",
-        "events/configuration-changed",
-        "events/evaluation-completed",
-        "events/session-closed",
-        "events/token-revoked"
-      ]
-    }
+    "events/alert-opened",
+    "events/boundary-changed",
+    "events/configuration-changed",
+    "events/evaluation-completed",
+    "events/session-closed",
+    "events/token-revoked"
   ]
 }
