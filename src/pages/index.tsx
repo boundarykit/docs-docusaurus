@@ -24,7 +24,7 @@ const cards = [
     "image": "/img/images/cards/card-mcp.svg"
   },
   {
-    "title": "Bac",
+    "title": "BaC",
     "href": "/bac",
     "image": "/img/images/cards/card-bac.svg"
   },
